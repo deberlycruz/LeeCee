@@ -1,0 +1,819 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.LEECEE {
+    background-color: #000000;
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.LEECEE .home-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    overflow: hidden;
+}
+
+.LEECEE .group {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.LEECEE .unsplash-fx {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.LEECEE .profile-picture {
+    position: absolute;
+    top: 5vh;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(650px, 70vw);
+    height: min(650px, 70vw);
+    display: flex;
+    aspect-ratio: 1;
+}
+
+.LEECEE .lee {
+    flex: 1;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.LEECEE .deberly-cruz {
+    position: absolute;
+    top: calc(5vh + min(540px, 60vw));
+    left: 50%;
+    transform: translateX(-50%);
+    width: 481px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .full-name {
+    white-space: nowrap;
+    -webkit-text-stroke: 2px #cee0f4;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #050b1e;
+    font-size: 75px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: center;
+}
+
+.LEECEE .WHERE-CYBERSECURITY {
+    position: absolute;
+    top: calc(5vh + min(540px, 60vw) + 80px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 712px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .div {
+    -webkit-text-stroke: 3px #193060;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #cee0f4;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.LEECEE .watermark-home {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .about-me-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    background-color: #050b1e;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .group-2 {
+    position: relative;
+    width: min(1200px, 92vw);
+    height: 820px;
+    margin: 0 auto;
+}
+
+.LEECEE .about-me-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #cee0f4;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #193060;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.LEECEE .cybersecurity-text {
+    position: absolute;
+    top: 88px;
+    left: 0;
+    width: 44%;
+    height: 560px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+}
+
+.LEECEE .cybersecurity {
+    position: absolute;
+    width: 80%;
+    top: 5%;
+    left: 10%;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.LEECEE .aspiring-text {
+    position: absolute;
+    top: 88px;
+    right: 0;
+    width: 44%;
+    height: 280px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+}
+
+.LEECEE .aspiring-security {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    left: 10%;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.LEECEE .entrepreneur-text {
+    position: absolute;
+    top: 430px;
+    right: 0;
+    width: 44%;
+    height: 220px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+}
+
+.LEECEE .entrepreneur-founder {
+    position: absolute;
+    width: 80%;
+    top: 12%;
+    left: 10%;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.LEECEE .watermark-about-me {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .span {
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 28px;
+    letter-spacing: 0;
+}
+
+.LEECEE .text-wrapper-4 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+}
+
+.LEECEE .text-wrapper-5 {
+    font-weight: 700;
+}
+
+.LEECEE .text-wrapper-6 {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 26px;
+}
+
+.LEECEE .text-wrapper-8 {
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.LEECEE .text-wrapper-9 {
+    font-family: "Inter-Regular", Helvetica;
+    font-size: 20px;
+}
+
+.LEECEE .skills-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .skills-title {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #cee0f4;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #193060;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.LEECEE .group-4 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.LEECEE .text-wrapper-16 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .design-text {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(calc(-100% - 20px));
+    width: 420px;
+    height: 200px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+}
+
+.LEECEE .design-and-creative {
+    position: absolute;
+    width: 85%;
+    top: 16%;
+    left: 7%;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.LEECEE .entrepreneur-founder-wrapper {
+    position: absolute;
+    top: 360px;
+    left: 35%;
+    transform: translateX(20px);
+    width: 420px;
+    height: 220px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+    text-align: center;
+}
+
+.LEECEE .oracle-text {
+    position: absolute;
+    top: 130px;
+    left: 50%;
+    transform: translateX(20px);
+    width: 420px;
+    height: 200px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+}
+
+.LEECEE .oracle-academy-java {
+    position: absolute;
+    width: 80%;
+    top: 20%;
+    left: 10%;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 1.4;
+}
+
+.LEECEE .text-wrapper-17 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .experience-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    background-color: #050b1e;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .group-5 {
+    position: relative;
+    width: min(1000px, 88vw);
+    height: 727px;
+}
+
+.LEECEE .EXPE-RIENCE {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .text-wrapper-18 {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #cee0f4;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #193060;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.LEECEE .my-journey-text {
+    position: absolute;
+    top: 91px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(873px, 90%);
+    height: 372px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+}
+
+.LEECEE .brand-founder-owner {
+    position: absolute;
+    width: 78%;
+    top: 12%;
+    left: 11%;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ceecf4;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: 1.6;
+}
+
+.LEECEE .interests-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .group-3 {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.LEECEE .watermark-interests {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .text-wrapper-11 {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #cee0f4;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #193060;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.LEECEE .figma-text,
+.LEECEE .modern-text,
+.LEECEE .pygame-text,
+.LEECEE .apparel-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(500px, 70vw);
+    height: 80px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .figma-text   { top: 170px; }
+.LEECEE .modern-text  { top: 270px; }
+.LEECEE .pygame-text  { top: 370px; }
+.LEECEE .apparel-text { top: 470px; }
+
+.LEECEE .text-wrapper-12,
+.LEECEE .text-wrapper-13,
+.LEECEE .text-wrapper-14,
+.LEECEE .text-wrapper-15 {
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #cee0f4;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+    position: static;
+    width: auto;
+    height: auto;
+}
+
+.LEECEE .contact-me-section {
+    width: 100%;
+    height: 100vh;
+    min-height: 900px;
+    position: relative;
+    background-color: #050b1e;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .group-6 {
+    position: relative;
+    width: min(1000px, 88vw);
+    height: 739px;
+}
+
+.LEECEE .text-wrapper-19 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 339px;
+    display: flex;
+    align-items: center;
+    opacity: 0.08;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 220px;
+    letter-spacing: 0;
+    line-height: normal;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.LEECEE .text-wrapper-20 {
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 61px;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #cee0f4;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #193060;
+    font-size: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.LEECEE .reach-text {
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(750px, 85%);
+    height: 250px;
+    background-color: #859fc01a;
+    border-radius: 50px;
+    box-shadow: 0px 0px 60px #ffffff66;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LEECEE .reach-out-and-let-s {
+    position: static;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 64px;
+    padding: 0 30px;
+}
+
+.LEECEE .text-wrapper-21 {
+    display: block;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #cee0f4;
+    font-size: 30px;
+    letter-spacing: 0;
+    line-height: 64px;
+    text-align: center;
+}
+
+.LEECEE .text-wrapper-22 {
+    display: block;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: #5dade2;
+}
+
+.LEECEE .LOGO {
+    position: fixed;
+    top: 51px;
+    left: 62px;
+    width: 208px;
+    height: 67px;
+    z-index: 100;
+}
+
+.LEECEE .p {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    -webkit-text-stroke: 1px #859fc0;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: transparent;
+    font-size: 55px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.LEECEE .text-wrapper-23 { color: #cee0f4; }
+.LEECEE .text-wrapper-24 { color: #050b1e; }
+
+.LEECEE .rectangle {
+    position: fixed;
+    top: 262px;
+    left: 63px;
+    width: 80px;
+    height: 500px;
+    background-color: #050b1e;
+    border-radius: 75px;
+    border: 1px solid #5dade2;
+    box-shadow: 0px 0px 60px #ffffff66;
+    z-index: 100;
+}
+
+.LEECEE .contact-button {
+    position: fixed;
+    top: 686px;
+    left: 88px;
+    width: 210px;
+    height: 36px;
+    display: flex;
+    z-index: 100;
+}
+.LEECEE .contact-me { flex: 1; width: 31.13px; }
+
+.LEECEE .interests-button {
+    position: fixed;
+    top: 619px;
+    left: 85px;
+    width: 141px;
+    height: 37px;
+    display: flex;
+    z-index: 100;
+}
+.LEECEE .interest { flex: 1; width: 34.84px; }
+
+.LEECEE .experience-button {
+    position: fixed;
+    top: 538px;
+    left: 85px;
+    width: 154px;
+    height: 40px;
+    display: flex;
+    z-index: 100;
+}
+.LEECEE .experience { flex: 1; width: 35.5px; }
+
+.LEECEE .skills-button {
+    display: inline-flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 16px;
+    position: fixed;
+    top: 458px;
+    left: 83px;
+    z-index: 100;
+}
+.LEECEE .skills {
+    position: relative;
+    width: 41.05px;
+    height: 36.5px;
+}
+
+.LEECEE .about-me-button {
+    position: fixed;
+    top: 378px;
+    left: 85px;
+    width: 137px;
+    height: 37px;
+    display: flex;
+    z-index: 100;
+}
+.LEECEE .about-me { flex: 1; width: 37.17px; }
+
+.LEECEE .home-button {
+    position: fixed;
+    top: 306px;
+    left: 84px;
+    width: 37px;
+    height: 34px;
+    display: flex;
+    z-index: 100;
+}
+.LEECEE .home { flex: 1; width: 37.5px; }
+
+.home-button:hover,
+.about-me-button:hover,
+.skills-button:hover,
+.experience-button:hover,
+.interests-button:hover,
+.contact-button:hover {
+    transform: translateY(-10px);
+    filter: brightness(1.4);
+    cursor: pointer;
+}
+
+.lee:hover {
+    filter: brightness(1.1);
+    cursor: pointer;
+    box-shadow: #5dade2 0px 0px 60px;
+}
+
+.LOGO:hover {
+    cursor: pointer;
+    text-shadow: 0px 0px 20px #5dade2;
+}
